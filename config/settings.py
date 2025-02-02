@@ -13,7 +13,7 @@ PREPROCESSED_CORPUS_FILE = os.path.join(PROCESSED_DATA_DIR, 'preprocessed_corpus
 VOCAB_FILE = os.path.join(PROCESSED_DATA_DIR, 'vocab.txt')
 COOCCUR_FILE = os.path.join(PROCESSED_DATA_DIR, 'cooccurrence.bin')
 SHUFFLED_FILE = os.path.join(PROCESSED_DATA_DIR, 'cooccurrence.shuf.bin')
-VECTORS_FILE = os.path.join(MODELS_DIR, 'vectors.txt')
+VECTORS_FILE = os.path.join(MODELS_DIR, 'vectors')
 
 # Параметры GloVe
 GLOVE_VECTOR_SIZE = 300
